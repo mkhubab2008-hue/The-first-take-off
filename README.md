@@ -23,3 +23,14 @@ The Gyroscope measures the rate of change of angles and the desired rates of rol
 | **Battery** | 1S 3.7V 500mAh LiPo Battery | 1 | $7.00 | [AliExpress](https://www.aliexpress.com/item/1005003268560510.html) |
 | **Airframe** | 3D Printed Frame Service (SLA/Resin) | 1 | $1.00 | [JLCPCB](https://jlcpcb.com/3d-printing) |
 | **Total** | | | **$30.81** | |
+
+## Programming
+*Software required*:-
+1) Arduino IDE
+2) ESP32C3 libaries
+3) MPU6050 library
+4) BLE libraries
+*Customizing the P, I and D gains*:-
+In my opinion the only method for obtaining the right gains is just trial error; because everydrone, even if it foollows the same blueprint, will have a different COM and mass. The following guide can be quite helpful in determining the gains:-
+<img width="1600" height="412" alt="WhatsApp Image 2026-08-20 at 11 23 37 AM" src="https://github.com/user-attachments/assets/db75dc49-ebe8-4e69-a13f-405428662d1a" />
+Furthermore, I think it is also prudent to add the ability to change the PID gains wirelessly as plugging the drone in repeatedly can be quite annoying. I did this by adding a BLE characteristic to wirelessly send the commands from my phone using nrf connect.
