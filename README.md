@@ -24,7 +24,7 @@ The Gyroscope measures the rate of change of angles and the desired rates of rol
 | **Airframe** | 3D Printed Frame Service (SLA/Resin) | 1 | $1.00 | [JLCPCB](https://jlcpcb.com/3d-printing) |
 | **Total** | | | **$30.81** | |
 
-##Wiring diagram
+## Wiring diagram
 <img width="2560" height="1809" alt="WhatsApp Image 2026-08-20 at 5 38 04 PM" src="https://github.com/user-attachments/assets/42ad7b27-c5f9-4a6a-9117-ecfe9bc163bb" />
 
 
